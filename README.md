@@ -37,8 +37,8 @@ Este es un proyecto de gestión de tareas desarrollado con Ruby on Rails y postg
 1. Clona el repositorio:
 
     ```sh
-    git clone https://github.com/tu-usuario/gestion-de-tareas.git
-    cd gestion-de-tareas
+    git clone https://github.com/nicxlasj/Gestion-de-tareas.git
+    cd organizer
     ```
 
 2. Instala las gemas necesarias:
@@ -47,7 +47,7 @@ Este es un proyecto de gestión de tareas desarrollado con Ruby on Rails y postg
     bundle install
     ```
 
-3. Configura la base de datos (ajusta el archivo config/database.yml con las credenciales de tu base de datos):
+3. Configura la base de datos (ajusta el archivo config/database.yml con las credenciales de tu base de datos de postgresql):
 
     ```sh
     rails db:create
