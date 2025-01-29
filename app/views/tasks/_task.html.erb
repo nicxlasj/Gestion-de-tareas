@@ -1,0 +1,18 @@
+<div id="<%= dom_id task %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Nombre:</strong>
+    <%= task.name %>
+  </p>
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Descripción:</strong>
+    <%= task.description %>
+  </p>
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Fecha límite:</strong>
+    <%= task.due_date %>
+  </p>
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Categoría:</strong>
+    <%= task.category.name %>
+  </p>
+</div>
