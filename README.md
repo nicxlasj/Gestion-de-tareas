@@ -46,21 +46,28 @@ Este es un proyecto de gestión de tareas desarrollado con Ruby on Rails y postg
     ```sh
     bundle install
     ```
+    
+3. Instala TailwindCSS:
 
-3. Configura la base de datos (ajusta el archivo config/database.yml con las credenciales de tu base de datos de postgresql):
+    ```sh
+    bundle exec rails tailwindcss:install 
+    ```
+
+
+4. Configura la base de datos (ajusta el archivo config/database.yml con las credenciales de tu base de datos de postgresql):
 
     ```sh
     rails db:create
     rails db:migrate
     ```
 
-4. Inicia el servidor:
+5. Inicia el servidor:
 
     ```sh
     rails server
     ```
 
-5. Abre tu navegador y ve a `http://localhost:3000`.
+6. Abre tu navegador y ve a `http://localhost:3000`.
 
 ## Uso
 
