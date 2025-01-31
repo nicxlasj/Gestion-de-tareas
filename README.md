@@ -38,7 +38,7 @@ Este es un proyecto de gestión de tareas desarrollado con Ruby on Rails y postg
 
     ```sh
     git clone https://github.com/nicxlasj/Gestion-de-tareas.git
-    cd organizer
+    cd Gestion-de-tareas
     ```
 
 2. Instala las gemas necesarias:
